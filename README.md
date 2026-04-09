@@ -1,9 +1,7 @@
 # SkillGuard
-<<<<<<< HEAD
-
 一个面向 AI Skills 的安全检测系统，自动化爬取和分析 ClawHub 上未被杀毒软件扫描的技能。
 
-![Gemini_Generated_Image_usw9l3usw9l3usw9](.\img\picture.png)
+![picture](https://img.cdn1.vip/i/69d6f5ac80c70_1775695276.webp)
 
 ## 核心流程
 
