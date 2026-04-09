@@ -1,4 +1,5 @@
 # SkillGuard
+<<<<<<< HEAD
 
 一个面向 AI Skills 的安全检测系统，自动化爬取和分析 ClawHub 上未被杀毒软件扫描的技能。
 
@@ -73,3 +74,6 @@ bash run.sh
 pip install -r requirements.txt
 ```
 
+=======
+In light of the supply chain security issues with Agent skills, I have designed a skill scanner.
+>>>>>>> 509138e0d28e31effcd72ddbba088f9cd470c2b2
