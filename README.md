@@ -72,6 +72,4 @@ bash run.sh
 pip install -r requirements.txt
 ```
 
-=======
-In light of the supply chain security issues with Agent skills, I have designed a skill scanner.
->>>>>>> 509138e0d28e31effcd72ddbba088f9cd470c2b2
+#### By inklin
