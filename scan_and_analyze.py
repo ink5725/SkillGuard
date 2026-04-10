@@ -921,7 +921,7 @@ def main():
             # 优先级: -m/--model > --llm-model > 环境变量 > 默认值
             llm_model = args.model or args.llm_model or os.getenv('SKILL_SCANNER_LLM_MODEL') or "openai/Pro/MiniMaxAI/MiniMax-M2.5"
             llm_api_key = llm_api_key or os.getenv('SKILL_SCANNER_LLM_API_KEY', 
-                'sk-zntcuyxgtufarswqmxlnztyffaopmcmgllaoiqzpjlwbuljh')
+                'sk-xxxxx')
             llm_base_url = llm_base_url or "https://api.siliconflow.cn/v1"
         elif args.provider == 'isrc':
             # 优先级: -m/--model > --llm-model > 环境变量 > 默认值
@@ -931,8 +931,8 @@ def main():
                 model_name = f"openai/{model_name}"
             llm_model = model_name
             llm_api_key = llm_api_key or os.getenv('SKILL_SCANNER_LLM_API_KEY',
-                'sk-b07e4e35cb90436697b370448185cf86')
-            llm_base_url = llm_base_url or "https://chatbox.isrc.ac.cn/api/v1"
+                'sk-xxxxx')
+            llm_base_url = llm_base_url or "https://xxxxx/api/v1"
     else:
         # 从环境变量读取
         llm_model = llm_model or os.getenv('SKILL_SCANNER_LLM_MODEL')
